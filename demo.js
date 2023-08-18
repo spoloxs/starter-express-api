@@ -106,7 +106,7 @@ app.get('/wp-json/fgf/rules', (req, res) => {
             "rule_type": "2",
             "gift_type": "1",
             "gift_products": [
-                "612"
+                "615"
             ],
             "gift_categories": [],
             "bogo_gift_type": "1",

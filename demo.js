@@ -11,7 +11,7 @@ app.use(basicAuth({
 app.get('/wp-json/fgf/rules', (req, res) => {
     const jsonResponse = [
         {
-            "id": 608,
+            "id": 1234,
             "name": "FREEBIE (Random)",
             "status": "fgf_inactive",
             "description": "",
@@ -20,7 +20,7 @@ app.get('/wp-json/fgf/rules', (req, res) => {
             "rule_type": "2",
             "gift_type": "1",
             "gift_products": [
-                "674559"
+                "608"
             ],
             "gift_categories": [],
             "bogo_gift_type": "1",
@@ -68,8 +68,8 @@ app.get('/wp-json/fgf/rules', (req, res) => {
             ],
             "cart_subtotal_min_value": "",
             "cart_subtotal_max_value": "200",
-            "quantity_min_value": "",
-            "quantity_max_value": "",
+            "quantity_min_value": "400",
+            "quantity_max_value": "500",
             "product_count_min_value": "",
             "product_count_max_value": "",
             "show_notice": "1",
@@ -97,7 +97,7 @@ app.get('/wp-json/fgf/rules', (req, res) => {
         },
 
         {
-            "id": 615,
+            "id": 12341,
             "name": "FREEBIE (Random)",
             "status": "fgf_active",
             "description": "",
@@ -106,7 +106,7 @@ app.get('/wp-json/fgf/rules', (req, res) => {
             "rule_type": "2",
             "gift_type": "1",
             "gift_products": [
-                "674559"
+                "612"
             ],
             "gift_categories": [],
             "bogo_gift_type": "1",
@@ -152,8 +152,8 @@ app.get('/wp-json/fgf/rules', (req, res) => {
             "cart_categories": [
                 "573"
             ],
-            "cart_subtotal_min_value": "",
-            "cart_subtotal_max_value": "500",
+            "cart_subtotal_min_value": "300",
+            "cart_subtotal_max_value": "",
             "quantity_min_value": "",
             "quantity_max_value": "",
             "product_count_min_value": "",
